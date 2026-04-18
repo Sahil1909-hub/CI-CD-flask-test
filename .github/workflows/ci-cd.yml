@@ -21,8 +21,7 @@ jobs:
 
             - name: Install dependencies
               run: 
-                pip install Flask
-                pip install pytest
+                pip install Flask pytest
 
             - name: Run tests
               run:
